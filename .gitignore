@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+/VERSION
 .Python
 build/
 develop-eggs/
@@ -44,8 +45,8 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
-nosetests.xml
-coverage.xml
+nosetests-*.xml
+coverage-*.xml
 *.cover
 *.py,cover
 .hypothesis/
@@ -127,3 +128,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ViM swap files
+*.sw?
+
+# Google sheets API credentials
+/credentials.json
+/token.pickle
+
+# Sheets data
+sheet.data
+
+# Generated files
+*.puml
+*.png

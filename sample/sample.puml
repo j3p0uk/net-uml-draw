@@ -1,0 +1,26 @@
+@startuml
+frame "Room 1" as 1 {
+    frame "Switch 1" as 2 {
+        queue "Port1" as 3
+        queue "Port2" as 4
+    }
+    frame "Device 1" as 5 {
+        queue "LAN" as 6
+    }
+    frame "Device 2" as 7 {
+        queue "LAN" as 8
+    }
+}
+frame "Room 2" as 9 {
+    frame "Switch 2" as 10 {
+        queue "Port1" as 11
+        queue "Port2" as 12
+    }
+    frame "Device 3" as 13 {
+        queue "LAN" as 14
+    }
+}
+3 -- 6
+4 -- 8
+11 -- 14
+@enduml
