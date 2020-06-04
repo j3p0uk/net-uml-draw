@@ -55,4 +55,4 @@ java -DPLANTUML_LIMIT_SIZE=8192 -jar plantuml.1.2020.7.jar ./home_network.puml
 
 ## Sample Diagram
 
-![Sample Diagram](sample/sample.png)
+![Sample Diagram](https://github.com/j3p0uk/net-uml-draw/blob/master/sample/sample.png?raw=true)
