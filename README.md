@@ -6,6 +6,9 @@ Write PlantUML from a Google Sheets spreadsheet for a simple home network diagra
 
 ## Spreadsheet Example
 
+Sample sheet is available in Sheets:
+[Network](https://docs.google.com/spreadsheets/d/1V2n9YHNBA8sUC7sSlY4Q5M0jMx4CI869Uz3AC0yTn9g/edit?usp=sharing)
+
 |Display Name and Port                             |Room  |Device  |Port |MAC|Connect|Display Name|
 |--------------------------------------------------|------|--------|-----|---|-------|------------|
 |=CONCATENATE(if(ISBLANK(G2),C2,G2), " Port: ", D2)|Room 1|Switch 1|Port1|   |=A4    |            |
