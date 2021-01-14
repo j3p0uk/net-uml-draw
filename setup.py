@@ -11,7 +11,7 @@ with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 if not os.path.isfile(version_file):
-    BUILD_NUMBER = os.environ.get('TRAVIS_BUILD_NUMBER', '0')
+    BUILD_NUMBER = os.environ.get('GITHUB_RUN_ID', '0')
     with open(version_file, encoding='utf-8', mode='w') as f:
         f.write(BUILD_NUMBER)
 else:
@@ -20,7 +20,7 @@ else:
 
 setup(
     name='net_uml_draw',
-    version='0.' + BUILD_NUMBER,
+    version='1.' + BUILD_NUMBER,
 
     description='Write PlantUML from a Google Sheet network description',
     long_description=long_description,
