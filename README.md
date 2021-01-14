@@ -1,6 +1,6 @@
 # net-uml-draw
 
-[![Build Status](https://travis-ci.org/j3p0uk/net-uml-draw.svg?branch=master)](https://travis-ci.org/j3p0uk/net-uml-draw) [![PyPi](https://img.shields.io/pypi/v/net-uml-draw.svg)](https://pypi.org/project/net-uml-draw/)
+[![CI](https://github.com/j3p0uk/net-uml-draw/workflows/CI/badge.svg)] [![PyPi](https://img.shields.io/pypi/v/net-uml-draw.svg)](https://pypi.org/project/net-uml-draw/)
 
 Write PlantUML from a Google Sheets spreadsheet for a simple home network diagram
 
