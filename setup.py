@@ -20,7 +20,7 @@ else:
 
 setup(
     name='net_uml_draw',
-    version='1.' + BUILD_NUMBER,
+    version='2.' + BUILD_NUMBER,
 
     description='Write PlantUML from a Google Sheet network description',
     long_description=long_description,
