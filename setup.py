@@ -11,7 +11,7 @@ with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 if not os.path.isfile(version_file):
-    BUILD_NUMBER = os.environ.get('GITHUB_RUN_ID', '0')
+    BUILD_NUMBER = os.environ.get('GITHUB_RUN_NUMBER', '0')
     with open(version_file, encoding='utf-8', mode='w') as f:
         f.write(BUILD_NUMBER)
 else:
